@@ -1,0 +1,43 @@
+﻿@model IEnumerable<OrderViewModel>
+
+@{
+    ViewData["Title"] = "Orders List";
+    Layout = "_MyLayout";
+}
+
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-center">🛒 All Orders</h2>
+
+    <table class="table table-hover table-striped align-middle shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Total</th>
+                <th>City</th>
+                <th>Phone</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@order.OrderDate.ToString("dd/MM/yyyy")</td>
+                    <td><span class="badge bg-info text-dark">@order.OrderStatus</span></td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                    <td>@order.ShippingCity</td>
+                    <td>@order.PhoneNumber</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@order.OrderId" class="btn btn-sm btn-primary">
+                            View Details
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

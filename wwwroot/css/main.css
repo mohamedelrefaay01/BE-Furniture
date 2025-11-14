@@ -1,0 +1,490 @@
+﻿/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start my website */
+.main {
+    width: 100%;
+/*    background-image: url("/Images/curtains/111.jpg");*/
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Start navbar content */
+.navbar {
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.Icons {
+    flex: 0 0 auto;
+}
+
+.logo {
+    color: #873e23;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 43px;
+    margin: 0;
+}
+
+.manu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+    .manu ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .manu ul li {
+            list-style: none;
+            font-size: 20px;
+        }
+
+            .manu ul li a {
+                color: #973e23;
+                text-decoration: none;
+                font-family: Arial;
+                font-weight: bold;
+                transition: color 0.3s ease-in-out;
+            }
+
+                .manu ul li a:hover {
+                    color: #c0392b;
+                }
+
+            .manu ul li span {
+                color: #873e23;
+                font-size: 16px;
+                font-weight: normal;
+            }
+
+button.login,
+button.signup {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login {
+    background-color: #873e23;
+    color: #fff;
+    border: 1px solid #873e23;
+}
+
+.signup {
+    background: #873e23;
+    color: #fff;
+    border: 2px solid #873e23;
+}
+
+    .login:hover,
+    .signup:hover {
+        background-color: #c0392b;
+        border-color: #c0392b;
+    }
+
+/* End navbar content */
+
+/* Start my content of home page */
+.content {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    position: relative;
+    color: #873e23;
+    padding: 0 20px;
+}
+
+div.content > h1 {
+    font-style: oblique;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 180px;
+}
+
+div.content > p {
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Start About us */
+.about-us {
+    min-height: 300px;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #873e23;
+    background-image: url("/Images/Carpets/11.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.info-box {
+    flex: 1;
+    padding: 30px;
+}
+
+    .info-box h2 {
+        font-weight: bold;
+        font-size: 50px;
+        color: #873e23;
+        margin: 0 0 20px;
+    }
+
+    .info-box p {
+        max-width: 1000px;
+        line-height: 1.8;
+        font-size: 17px;
+        color: #873e23;
+        margin: 0;
+    }
+
+/* End About us */
+
+/* Start Products section */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* يخليهم متوزعين بالتساوي */
+    gap: 30px; /* المسافة الثابتة بين كل كرت والتاني */
+    padding: 30px;
+}
+
+
+
+    .products h2 {
+        padding-bottom: 30px;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #873e23;
+    }
+
+    .products .box {
+        display: inline-block;
+        width: 400px;
+        margin: 15px;
+        background: #fff;
+        border-radius: 40px;
+        padding: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        vertical-align: top;
+    }
+
+        .products .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px #f9f9f9;
+        }
+
+    .products h4 {
+        font-size: 20px;
+        font-style: italic;
+        margin-bottom: 15px;
+        color: #e74c3c;
+    }
+
+.box-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+    .box-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+        .box-image img:hover {
+            transform: scale(1.05);
+        }
+
+.box-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden; /* Prevent overflow */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+.box-image img {
+    width:100%;
+    height: 100%;
+    object-fit: cover; /* Crop to fit container */
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+/* End section products */
+
+/* Start section of owners */
+.opinion-section {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+    .opinion-section h2 {
+        text-align: center;
+        font-size: 30px;
+        color: #e74c3c;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+.opinion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.opinion-one {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    border: 1px solid #873e23;
+}
+
+    .opinion-one:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .opinion-one img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #4CAF50;
+        margin-bottom: 10px;
+    }
+
+    .opinion-one h4 {
+        font-size: 1.1rem;
+        margin: 5px 0 10px;
+        color: #2c3e50;
+    }
+
+    .opinion-one p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        color: #555;
+        margin: 5px 0;
+    }
+
+/* End section of owners */
+
+/* Start contact us section */
+.contact-us {
+    width: 100%;
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f5f5f5, #eaeaea);
+    border-radius: 18px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+    .contact-us h2 {
+        margin-bottom: 20px;
+        color: #873e23;
+        font-size: 24px;
+    }
+
+    .contact-us input,
+    .contact-us textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        font-size: 18px;
+        outline: none;
+        transition: border 0.3s;
+        box-sizing: border-box;
+    }
+
+        .contact-us input:focus,
+        .contact-us textarea:focus {
+            border-color: #873e23;
+            box-shadow: 0 0 5px rgba(135, 62, 35, 0.3);
+        }
+
+    .contact-us textarea {
+        height: 100px;
+        resize: none;
+    }
+
+    .contact-us input[type="submit"] {
+        background: #873e23;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background 0.3s;
+    }
+
+        .contact-us input[type="submit"]:hover {
+            background: #c0392b;
+        }
+
+/* End contact us section */
+
+/* Start copyRight */
+/*footer {
+    background: #873e23;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+}
+
+    footer p {
+        margin: 0 0 15px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    footer .links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+        footer .links a {
+            color: #fff;
+            font-size: 22px;
+            transition: color 0.3s, transform 0.3s;
+            text-decoration: none;
+        }
+
+            footer .links a:hover {
+                color: #2c3e50;
+                transform: translateY(-4px);
+            }
+*/
+/* End copyRight */
+/* End my content of home page */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .manu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    div.content > h1 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    .info-box h2 {
+        font-size: 35px;
+    }
+
+    .info-box p {
+        font-size: 15px;
+    }
+
+    .products .box {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.quantity-btn {
+    background: #873e23;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+    .quantity-btn:hover {
+        background: #a94d2b;
+        transform: scale(1.1);
+    }
+
+    .quantity-btn:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+    }
+
+.quantity-display {
+    font-size: 1rem;
+    font-weight: bold;
+    min-width: 35px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 2px solid #873e23;
+    border-radius: 5px;
+    background: white;
+}

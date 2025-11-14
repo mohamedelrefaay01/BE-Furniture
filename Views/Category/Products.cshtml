@@ -1,0 +1,312 @@
+﻿@model Home_furnishings.ViewModels.CategoryProductsViewModel
+
+@{
+    ViewData["Title"] = Model.CategoryName + " Department";
+    Layout = "_MyLayout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .product {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+            .product:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            }
+
+            .product img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 12px;
+                margin-bottom: 15px;
+            }
+
+            .product h3 {
+                margin: 10px 0;
+                font-size: 1.3rem;
+                color: #2c3e50;
+                text-align: center;
+            }
+
+            .product p {
+                color: #7f8c8d;
+                font-size: 0.95rem;
+                margin: 8px 0;
+                text-align: center;
+                line-height: 1.5;
+            }
+
+        .price {
+            color: #e74c3c;
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin: 12px 0;
+        }
+
+        /* Quantity Controls - Blue Style */
+        .quantity-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin: 15px 0;
+        }
+
+        .quantity-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+            line-height: 1;
+            padding: 0;
+        }
+
+            .quantity-btn:hover {
+                background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+                transform: translateY(-3px) scale(1.05);
+                box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+            }
+
+            .quantity-btn:active {
+                transform: translateY(-1px) scale(1.02);
+            }
+
+            .quantity-btn:disabled {
+                background: linear-gradient(135deg, #bdc3c7 0%, #95a5a6 100%);
+                cursor: not-allowed;
+                box-shadow: none;
+                transform: none;
+            }
+
+        .quantity-display {
+            font-size: 1.4rem;
+            font-weight: 700;
+            min-width: 45px;
+            text-align: center;
+            color: #2c3e50;
+            padding: 0;
+            background: transparent;
+            border: none;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+            .btn:hover {
+                background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 20px rgba(245, 87, 108, 0.6);
+            }
+
+            .btn:active {
+                transform: translateY(0);
+            }
+
+            .btn:disabled {
+                background: linear-gradient(135deg, #bdc3c7 0%, #95a5a6 100%);
+                cursor: not-allowed;
+                transform: none;
+                box-shadow: none;
+            }
+
+        .stock-status {
+            font-weight: 600;
+            font-size: 0.9rem;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 8px 0;
+        }
+
+        .in-stock {
+            color: #27ae60;
+            background: #d5f4e6;
+        }
+
+        .out-of-stock {
+            color: #e74c3c;
+            background: #fadbd8;
+        }
+    </style>
+</head>
+<body>
+    <div class="products" id="productList">
+        @if (Model.Products.Any())
+        {
+            @foreach (var product in Model.Products)
+            {
+                <div class="product" data-id="@product.ProductId">
+                    <img src="@product.ImageUrl" alt="@product.Name">
+                    <h3>@product.Name</h3>
+                    <p>@product.Description</p>
+                    <div class="price">$@product.Price</div>
+                    <p class="stock-status @(product.IsInStock ? "in-stock" : "out-of-stock")">
+                        @(product.IsInStock ? $"✓ In Stock ({product.Quantity})" : "✗ Out of Stock")
+                    </p>
+
+                    @if (product.IsInStock)
+                    {
+                        <div class="quantity-controls">
+                            <button class="quantity-btn decrease-qty" data-product-id="@product.ProductId">
+                                −
+                            </button>
+                            <span class="quantity-display" data-product-id="@product.ProductId">1</span>
+                            <button class="quantity-btn increase-qty"
+                                    data-product-id="@product.ProductId"
+                                    data-max-stock="@product.Quantity">
+                                +
+                            </button>
+                        </div>
+                    }
+
+                    <button class="btn add-to-cart"
+                            data-id="@product.ProductId"
+                            data-name="@product.Name"
+                            @(!product.IsInStock ? "disabled" : "")>
+                        @(product.IsInStock ? "Add to Cart" : "Out of Stock")
+                    </button>
+                </div>
+            }
+        }
+        else
+        {
+            <div style="text-align: center; padding: 50px; width: 100%; grid-column: 1 / -1;">
+                <h2 style="color: #95a5a6;">No products available in this category</h2>
+            </div>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            loadCartCount();
+
+            // Increase quantity
+            $('.increase-qty').click(function() {
+                const productId = $(this).data('product-id');
+                const maxStock = $(this).data('max-stock');
+                const $quantityDisplay = $(`.quantity-display[data-product-id="${productId}"]`);
+                let currentQty = parseInt($quantityDisplay.text());
+
+                if (currentQty >= maxStock) {
+                    alert('⚠️ Maximum stock reached!');
+                    return;
+                }
+
+                $quantityDisplay.text(currentQty + 1);
+            });
+
+            // Decrease quantity
+            $('.decrease-qty').click(function() {
+                const productId = $(this).data('product-id');
+                const $quantityDisplay = $(`.quantity-display[data-product-id="${productId}"]`);
+                let currentQty = parseInt($quantityDisplay.text());
+
+                if (currentQty <= 1) {
+                    return;
+                }
+
+                $quantityDisplay.text(currentQty - 1);
+            });
+
+            // Add to cart functionality
+            $('.add-to-cart').click(function() {
+                const productId = $(this).data('id');
+                const productName = $(this).data('name');
+                const $quantityDisplay = $(`.quantity-display[data-product-id="${productId}"]`);
+                const quantity = parseInt($quantityDisplay.text()) || 1;
+
+                $.ajax({
+                    url: '@Url.Action("AddToCart", "Cart")',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({
+                        productId: productId,
+                        quantity: quantity
+                    }),
+                    success: function(response) {
+                        if (response.success) {
+                            $('#cartCounter').text(response.cartCount);
+                            alert('✓ ' + productName + ' (Quantity: ' + quantity + ') added to cart!');
+                            $quantityDisplay.text('1');
+                        } else {
+                            if (response.redirectToLogin) {
+                                alert('⚠️ Please login first');
+                                window.location.href = '@Url.Action("Login", "Account")';
+                            } else {
+                                alert('⚠️ ' + response.message);
+                            }
+                        }
+                    },
+                    error: function() {
+                        alert('❌ Error adding product to cart');
+                    }
+                });
+            });
+
+            function loadCartCount() {
+                $.ajax({
+                    url: '@Url.Action("GetCartCount", "Cart")',
+                    type: 'GET',
+                    success: function(response) {
+                        $('#cartCounter').text(response.count);
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

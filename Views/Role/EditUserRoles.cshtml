@@ -1,0 +1,53 @@
+﻿@model List<RoleSelectionViewModel>
+
+@{
+    ViewData["Title"] = "Edit User Roles";
+    Layout = "_MyLayout";
+}
+
+<div class="container mt-4" style="max-width: 600px;">
+    <h2 class="text-primary mb-3">Edit Roles for @ViewBag.UserName</h2>
+
+    @*Show sucess or error *@
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <form asp-action="EditUserRoles" method="post">
+        <input type="hidden" name="userId" value="@ViewBag.UserId" />
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Role Name</th>
+                    <th>Assigned</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            @Model[i].RoleName
+                            <input type="hidden" asp-for="@Model[i].RoleName" />
+                        </td>
+                        <td class="text-center">
+                            <input type="checkbox" asp-for="@Model[i].IsSelected" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <button type="submit" class="btn btn-success w-100">Save Changes</button>
+
+        <div class="text-center mt-3">
+            <a asp-action="ManageUserRoles" class="text-secondary">Back to Users</a>
+        </div>
+    </form>
+</div>

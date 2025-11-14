@@ -1,0 +1,343 @@
+﻿<!-- Views/Product/Details.cshtml -->
+@model Home_furnishings.ViewModels.ProductDetailsViewModel
+
+@{
+    ViewData["Title"] = Model.Name;
+    Layout = "_MyLayout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #873e23;
+            color: white;
+            padding: 15px 20px;
+        }
+
+            header h1 {
+                margin: 0;
+            }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            margin: 10px 0 0 0;
+            padding: 0;
+        }
+
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+            }
+
+        .product-details {
+            max-width: 1200px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 40px;
+        }
+
+   
+
+        .product-info {
+            flex: 1;
+        }
+
+            .product-info h1 {
+                color: #873e23;
+                margin-top: 0;
+            }
+
+        .price {
+            font-size: 2rem;
+            color: #c0392b;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .stock-info {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        .btn {
+            background: #c0392b;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+
+            .btn:hover {
+                background: #e74c3c;
+            }
+
+            .btn:disabled {
+                background: #ccc;
+                cursor: not-allowed;
+            }
+
+        .related-products {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+            .related-products h2 {
+                color: #873e23;
+                text-align: center;
+            }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+            .product-card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+
+
+   
+        /* Also fix for the box-image container */
+        .box-image {
+            width:100%;
+            height: 200px;
+            overflow: hidden; /* Prevent overflow */
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+            .box-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Crop to fit container */
+                transition: transform 0.3s ease;
+                display: block;
+            }
+
+
+
+
+
+
+
+        /* @@media (max-width: 768px) {
+            .product-details
+
+        {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        } */
+        /* .product-image img {
+            max-height: 400px;
+        }
+        /* ///////////////// */
+        /* ///////style to small the image */
+          /*  .product-details {
+                max-width: 1200px;
+                margin: 30px auto;
+                background: white;
+                padding: 30px;
+                border-radius: 12px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+                display: flex;
+                flex-wrap: wrap; 
+                align-items: stretch;
+                gap: 40px;
+                overflow: hidden; 
+            }
+        
+            .product-image {
+                flex: 1 1 400px; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                border-radius: 10px;
+            }
+
+                .product-image img {
+                    width: 100%;
+                    height: 100%;
+                    max-height: 500px;
+                    object-fit: contain;
+                    border-radius: 10px;
+                    display: block;
+                } */
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Product Details</h1>
+        <ul class="nav-links">
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Product" asp-action="Index">All Products</a></li>
+            <li><a asp-controller="Category" asp-action="Products" asp-route-id="@Model.CategoryId">Back to @Model.CategoryName</a></li>
+        </ul>
+    </header>
+
+    <div class="product-details">
+        <div class="product-image">
+            <img src="@Model.ImageUrl" alt="@Model.Name">
+        </div>
+        <div class="product-info">
+            <h1>@Model.Name</h1>
+            <p><strong>Category:</strong> @Model.CategoryName</p>
+            <p class="price">$@Model.Price</p>
+            <p>@Model.Description</p>
+            <p class="stock-info" style="color: @(Model.Quantity > 0 ? "green" : "red")">
+                @if (Model.Quantity > 0)
+                {
+                    <text>✓ In Stock (@Model.Quantity available)</text>
+                }
+                else
+                {
+                    <text>✗ Out of Stock</text>
+                }
+            </p>
+
+            @if (Model.Quantity > 0)
+            {
+                <div class="quantity-controls" style="justify-content: flex-start;">
+                    <button class="quantity-btn decrease-qty" data-product-id="@Model.ProductId">
+                        −
+                    </button>
+                    <div class="quantity-display" data-product-id="@Model.ProductId">1</div>
+                    <button class="quantity-btn increase-qty"
+                            data-product-id="@Model.ProductId"
+                            data-max-stock="@Model.Quantity">
+                        +
+                    </button>
+                </div>
+            }
+
+            <button class="btn add-to-cart"
+                    data-id="@Model.ProductId"
+                    data-name="@Model.Name"
+                    @(Model.Quantity <= 0 ? "disabled" : "")>
+                @(Model.Quantity > 0 ? "Add to Cart" : "Out of Stock")
+            </button>
+        </div>
+    </div>
+
+    @if (Model.RelatedProducts.Any())
+    {
+        <div class="related-products">
+            <h2>Related Products</h2>
+            <div class="products-grid">
+                @foreach (var product in Model.RelatedProducts)
+                {
+                    <div class="product-card">
+                        <img src="@product.ImageUrl" alt="@product.Name">
+                        <h3>@product.Name</h3>
+                        <p class="price">$@product.Price</p>
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@product.ProductId">
+                            <button class="btn">View Details</button>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Increase quantity
+            $('.increase-qty').click(function() {
+                const productId = $(this).data('product-id');
+                const maxStock = $(this).data('max-stock');
+                const $quantityDisplay = $(`.quantity-display[data-product-id="${productId}"]`);
+                let currentQty = parseInt($quantityDisplay.text());
+
+                if (currentQty >= maxStock) {
+                    alert('Maximum stock reached!');
+                    return;
+                }
+
+                $quantityDisplay.text(currentQty + 1);
+            });
+
+            // Decrease quantity
+            $('.decrease-qty').click(function() {
+                const productId = $(this).data('product-id');
+                const $quantityDisplay = $(`.quantity-display[data-product-id="${productId}"]`);
+                let currentQty = parseInt($quantityDisplay.text());
+
+                if (currentQty <= 1) {
+                    return;
+                }
+
+                $quantityDisplay.text(currentQty - 1);
+            });
+
+            $('.add-to-cart').click(function() {
+                const productId = $(this).data('id');
+                const productName = $(this).data('name');
+                const $quantityDisplay = $(`.quantity-display[data-product-id="${productId}"]`);
+                const quantity = parseInt($quantityDisplay.text()) || 1;
+
+                $.ajax({
+                    url: '@Url.Action("AddToCart", "Cart")',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ productId: productId, quantity: quantity }),
+                    success: function(response) {
+                        if (response.success) {
+                            alert(productName + ' (Qty: ' + quantity + ') added to cart!');
+                            window.location.href = '@Url.Action("Index", "Cart")';
+                        } else {
+                            if (response.redirectToLogin) {
+                                alert('Please login first');
+                                window.location.href = '@Url.Action("Login", "Account")';
+                            } else {
+                                alert(response.message);
+                            }
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
