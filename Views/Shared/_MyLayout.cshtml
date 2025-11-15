@@ -140,11 +140,11 @@
     </div>
     <!--offcanvas menu area end-->
     <!--header area start-->
-    <hass ="header_section mb-30">
+    <header class="header_section mb-30">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="main_header d-flex justify-content-between align-items-center" style="padding: 25px 10px 25px; background:#873e23">
+                <div class="" style="background:#873e23">
+                    <div class="main_header d-flex justify-content-between align-items-center" style="padding: 25px 10px 25px;">
                         <div class="header_logo">
                             <a class="sticky_none" asp-controller="Home" asp-action="Index">
                                 <img src="/assets/img/logo/logo.png" alt="">
@@ -154,7 +154,7 @@
                         <!--main menu start-->
                         <div class="main_menu d-none d-lg-block">
                             <nav>
-                                <ul class="d-flex align-items-center">
+                                <ul class="d-flex ">
                                     <li>
                                         <a asp-controller="Home" asp-action="Index">Home</a>
                                     </li>
@@ -179,13 +179,13 @@
                                     @if (SignInManager.IsSignedIn(User))
                                     {
                                         <li class="nav-item">
-                                            <a class="nav-link disabled text-success fw-bold">
+                                            <a class="nav-link disabled text-warning fw-bold">
                                                 Welcome, @User.Identity.Name
                                             </a>
                                         </li>
 
                                         @*  Admin *@
-                                        @if (User.IsInRole("admin"))
+                                        @if (User.IsInRole("Admin"))
                                         {
                                             <li>
                                                 <a asp-controller="Role" asp-action="Index">Manage Roles</a>
