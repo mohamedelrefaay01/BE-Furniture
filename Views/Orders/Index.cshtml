@@ -1,13 +1,28 @@
 ﻿@model IEnumerable<OrderViewModel>
-
 @{
     ViewData["Title"] = "Orders List";
     Layout = "_MyLayout";
 }
 
-
 <div class="container mt-4">
     <h2 class="mb-4 text-center">🛒 All Orders</h2>
+
+    @* Add success message display *@
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>@TempData["SuccessMessage"]</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>@TempData["ErrorMessage"]</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
 
     <table class="table table-hover table-striped align-middle shadow-sm">
         <thead class="table-dark">
@@ -22,22 +37,66 @@
             </tr>
         </thead>
         <tbody>
-            @foreach (var order in Model)
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var order in Model)
+                {
+                    <tr>
+                        <td>@order.OrderId</td>
+                        <td>@order.OrderDate.ToString("dd/MM/yyyy")</td>
+                        <td><span class="badge bg-info text-dark">@order.OrderStatus</span></td>
+                        <td>@order.TotalAmount.ToString("C")</td>
+                        <td>@order.ShippingCity</td>
+                        <td>@order.PhoneNumber</td>
+                        <td>
+                            <a asp-action="Details" asp-route-id="@order.OrderId" class="btn btn-sm btn-primary">
+                                View Details
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
             {
                 <tr>
-                    <td>@order.OrderId</td>
-                    <td>@order.OrderDate.ToString("dd/MM/yyyy")</td>
-                    <td><span class="badge bg-info text-dark">@order.OrderStatus</span></td>
-                    <td>@order.TotalAmount.ToString("C")</td>
-                    <td>@order.ShippingCity</td>
-                    <td>@order.PhoneNumber</td>
-                    <td>
-                        <a asp-action="Details" asp-route-id="@order.OrderId" class="btn btn-sm btn-primary">
-                            View Details
-                        </a>
+                    <td colspan="7" class="text-center">
+                        <p class="text-muted mt-3">No orders found.</p>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
+
+    <div class="text-center mt-4">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">
+            🏠 Back to Home
+        </a>
+    </div>
 </div>
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // Auto-hide success message after 10 seconds
+            setTimeout(function() {
+                $('.alert').fadeOut('slow');
+            }, 10000);
+
+            // Highlight the most recent order if OrderId is present
+            var orderId = '@TempData["OrderId"]';
+            if (orderId) {
+                var $orderRow = $('td:contains("' + orderId + '")').closest('tr');
+                if ($orderRow.length) {
+                    $orderRow.css('background-color', '#d4edda');
+                    $('html, body').animate({
+                        scrollTop: $orderRow.offset().top - 100
+                    }, 500);
+
+                    // Remove highlight after 5 seconds
+                    setTimeout(function() {
+                        $orderRow.css('background-color', '');
+                    }, 5000);
+                }
+            }
+        });
+    </script>
+}

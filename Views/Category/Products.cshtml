@@ -257,7 +257,13 @@
         }
     </style>
 </head>
+@using Microsoft.AspNetCore.Identity
+@using Home_furnishings.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
 <body>
+
+
     @if (TempData["SuccessMessage"] != null)
     {
         <div class="alert-message alert-success" id="alertMessage">
@@ -273,9 +279,13 @@
     }
 
     <!-- Floating Add Product Button -->
-    <a asp-controller="Product" asp-action="Create" class="btn-create">
-         Add New Product
-    </a>
+    @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+    {
+        <a asp-controller="Product" asp-action="Create" class="btn-create">
+
+            Add New Product
+        </a>            
+    }
 
     <div class="products" id="productList">
         @if (Model.Products.Any())
@@ -292,7 +302,7 @@
                     </p>
 
                     @if (product.IsInStock)
-                    {
+                    {   @if (!User.IsInRole("Admin")) {
                         <div class="quantity-controls">
                             <button class="quantity-btn decrease-qty" data-product-id="@product.ProductId">
                                 −
@@ -303,17 +313,23 @@
                                     data-max-stock="@product.Quantity">
                                 +
                             </button>
-                        </div>
+                        </div>}
                     }
-
+                    @if (!User.IsInRole("Admin"))
+                    {
                     <button class="btn btn-add-cart add-to-cart"
                             data-id="@product.ProductId"
                             data-name="@product.Name"
                             @(!product.IsInStock ? "disabled" : "")>
                         @(product.IsInStock ? "🛒 Add to Cart" : "Out of Stock")
-                    </button>
-
+                    </button> 
+                    @* ///////////////////////////////////// *@
+                    <button class="btn btn-secondary">
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@product.ProductId" style="width: 100%;">👁 View Details </a>
+                    </button>}
                     <!-- Admin Action Buttons -->
+                    @if (User.IsInRole("Admin")) {
+
                     <div class="admin-actions">
                         <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.ProductId" class="btn-admin btn-edit">
                             ✏️ Edit
@@ -326,8 +342,8 @@
                                 🗑️ Delete
                             </button>
                         </form>
-                    </div>
-                </div>
+                    </div>}
+                </div> 
             }
         }
         else
@@ -335,7 +351,7 @@
             <div style="text-align: center; padding: 50px; width: 100%; grid-column: 1 / -1;">
                 <h2 style="color: #95a5a6;">No products available in this category</h2>
                 <a asp-controller="Product" asp-action="Create" class="btn btn-add-cart" style="display: inline-block; width: auto; margin-top: 20px;">
-                    ➕ Add First Product
+                  Add First Product
                 </a>
             </div>
         }

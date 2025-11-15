@@ -25,10 +25,20 @@ namespace Home_furnishings.Repository
 
         public void Insert(Product product)
         {
-            _context.Products.Add(product);
-            _context.SaveChanges();
-        }
+            System.Diagnostics.Debug.WriteLine($"=== REPOSITORY INSERT CALLED ===");
+            System.Diagnostics.Debug.WriteLine($"Product Name: {product.Name}");
+            System.Diagnostics.Debug.WriteLine($"Product Price: {product.Price}");
+            System.Diagnostics.Debug.WriteLine($"CategoryId: {product.CategoryId}");
 
+            _context.Products.Add(product);
+
+            System.Diagnostics.Debug.WriteLine("Product added to context, calling SaveChanges...");
+
+            var result = _context.SaveChanges();
+
+            System.Diagnostics.Debug.WriteLine($"SaveChanges returned: {result} (should be 1)");
+            System.Diagnostics.Debug.WriteLine($"Product ProductId after save: {product.ProductId}");
+        }
         public void Update(int id, Product product)
         {
             var entity = _context.Products.Find(id);
@@ -41,7 +51,12 @@ namespace Home_furnishings.Repository
                 entity.CategoryId = product.CategoryId;
                 entity.Quantity = product.Quantity;
                 entity.IsActive = product.IsActive;
+
                 _context.SaveChanges();
+            }
+            else
+            {
+                throw new Exception($"Product with ID {id} not found");
             }
         }
 

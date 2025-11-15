@@ -283,7 +283,7 @@ namespace Home_furnishings.Controllers
                     ProductId = cp.Product.ProductId,
                     ProductName = cp.Product.Name,
                     Price = cp.Product.Price,
-                    ImageUrl = cp.Product.ImageUrl,
+                    ImageUrl = cp.Product.ImageUrl ?? "",
                     Quantity = cp.Quantity
                 }).ToList();
 
@@ -323,7 +323,7 @@ namespace Home_furnishings.Controllers
                     ShippingAddress = model.ShippingAddress,
                     ShippingCity = model.ShippingCity,
                     ShippingPostalCode = model.PostalCode ?? "",
-                    ShippingCountry = "USA", // You can add this to form if needed
+                    ShippingCountry = "USA",
                     PhoneNumber = model.PhoneNumber,
                     Notes = model.Notes ?? "",
                     ShippingCost = (decimal)model.ShippingCost,
@@ -368,8 +368,8 @@ namespace Home_furnishings.Controllers
                 TempData["SuccessMessage"] = $"🎉 Order #{order.OrderId} placed successfully! Thank you for your purchase.";
                 TempData["OrderId"] = order.OrderId;
 
-                // Redirect to Home
-                return RedirectToAction("Index", "Home");
+                // CHANGED: Redirect to Orders Index instead of Home
+                return RedirectToAction("Index", "Orders");
             }
             catch (Exception ex)
             {
@@ -388,7 +388,7 @@ namespace Home_furnishings.Controllers
                     ProductId = cp.Product.ProductId,
                     ProductName = cp.Product.Name,
                     Price = cp.Product.Price,
-                    ImageUrl = cp.Product.ImageUrl,
+                    ImageUrl = cp.Product.ImageUrl ?? "",
                     Quantity = cp.Quantity
                 }).ToList();
 
@@ -402,7 +402,6 @@ namespace Home_furnishings.Controllers
                 return View("Checkout", model);
             }
         }
-
         // GET: Cart/OrderConfirmation
         public IActionResult OrderConfirmation(int orderId)
         {

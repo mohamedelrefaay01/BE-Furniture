@@ -89,7 +89,6 @@ namespace Home_furnishings.Controllers
             ViewBag.Categories = _categoryRepository.GetActiveCategories();
             return View();
         }
-
         // POST: Product/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -98,26 +97,32 @@ namespace Home_furnishings.Controllers
         {
             if (ModelState.IsValid)
             {
-                var product = new Product
+                try
                 {
-                    Name = model.Name,
-                    Price = model.Price,
-                    Description = model.Description,
-                    ImageUrl = model.ImageUrl,
-                    Quantity = model.Quantity,
-                    IsActive = model.IsActive,
-                    CategoryId = model.CategoryId
-                };
+                    var product = new Product
+                    {
+                        Name = model.Name,
+                        Price = model.Price,
+                        Description = model.Description,
+                        ImageUrl = model.ImageUrl,
+                        Quantity = model.Quantity,
+                        IsActive = model.IsActive,
+                        CategoryId = model.CategoryId
+                    };
 
-                _productRepository.Insert(product);
-                TempData["SuccessMessage"] = "✓ Product created successfully!";
-                return RedirectToAction("Index", "Category", new { id = model.CategoryId });
+                    _productRepository.Insert(product);
+                    TempData["SuccessMessage"] = "✓ Product created successfully!";
+                    return RedirectToAction("Products", "Category", new { id = model.CategoryId });
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", $"Error: {ex.Message}");
+                }
             }
 
             ViewBag.Categories = _categoryRepository.GetActiveCategories();
             return View(model);
         }
-
         // GET: Product/Edit/5
         [HttpGet]
         //[Authorize(Roles = "Admin")]
@@ -126,7 +131,8 @@ namespace Home_furnishings.Controllers
             var product = _productRepository.GetById(id);
             if (product == null)
             {
-                return NotFound();
+                TempData["ErrorMessage"] = "❌ Product not found!";
+                return RedirectToAction("Index", "Product");
             }
 
             var viewModel = new ProductViewModel
@@ -135,7 +141,7 @@ namespace Home_furnishings.Controllers
                 Name = product.Name,
                 Price = product.Price,
                 Description = product.Description,
-                ImageUrl = product.ImageUrl,
+                ImageUrl = product.ImageUrl ?? "",
                 Quantity = product.Quantity,
                 IsActive = product.IsActive,
                 CategoryId = product.CategoryId
@@ -151,25 +157,39 @@ namespace Home_furnishings.Controllers
         //[Authorize(Roles = "Admin")]
         public IActionResult Edit(int id, ProductViewModel model)
         {
-            if (ModelState.IsValid)
+            if (id != model.ProductId)
             {
-                var product = new Product
-                {
-                    ProductId = id,
-                    Name = model.Name,
-                    Price = model.Price,
-                    Description = model.Description,
-                    ImageUrl = model.ImageUrl,
-                    Quantity = model.Quantity,
-                    IsActive = model.IsActive,
-                    CategoryId = model.CategoryId
-                };
-
-                _productRepository.Update(id, product);
-                TempData["SuccessMessage"] = "✓ Product updated successfully!";
-                return RedirectToAction("Products", "Category", new { id = model.CategoryId });
+                TempData["ErrorMessage"] = "❌ Product ID mismatch!";
+                return RedirectToAction("Index", "Product");
             }
 
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var product = new Product
+                    {
+                        ProductId = id,
+                        Name = model.Name,
+                        Price = model.Price,
+                        Description = model.Description,
+                        ImageUrl = model.ImageUrl,
+                        Quantity = model.Quantity,
+                        IsActive = model.IsActive,
+                        CategoryId = model.CategoryId
+                    };
+
+                    _productRepository.Update(id, product);
+                    TempData["SuccessMessage"] = "✓ Product updated successfully!";
+                    return RedirectToAction("Products", "Category", new { id = model.CategoryId });
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", $"Error updating product: {ex.Message}");
+                }
+            }
+
+           
             ViewBag.Categories = _categoryRepository.GetActiveCategories();
             return View(model);
         }

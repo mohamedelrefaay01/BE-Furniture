@@ -8,9 +8,8 @@ namespace Home_furnishings.Models
         public int CategoryId { get; set; }
 
         [Required]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
-      
-        public List<Product> Products { get; set; }
+        public List<Product> Products { get; set; } = new List<Product>();
     }
 }

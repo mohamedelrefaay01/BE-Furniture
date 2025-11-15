@@ -152,8 +152,8 @@
                                             <li><a href="contact.html">Contact Us</a></li>
                                         </ul>
                                     </li>
-                                    @if (SignInManager.IsSignedIn(User))
-                                    {
+                                  @if (SignInManager.IsSignedIn(User)) 
+                                   {
                                         <li class="nav-item">
                                             <a class="nav-link disabled text-warning fw-bold">
                                                 Welcome, @User.Identity.Name
@@ -161,8 +161,8 @@
                                         </li>
 
                                         @*  Admin *@
-                                        @if (User.IsInRole("Admin"))
-                                        {
+                                       @if (User.IsInRole("Admin")) 
+                                       {
                                             <li>
                                                 <a asp-controller="Role" asp-action="Index">Manage Roles</a>
                                             </li>
@@ -173,7 +173,7 @@
                                             
 
 
-                                        }
+                                    } 
 
 
 
@@ -184,7 +184,7 @@
 
 
 
-                                    }
+                                   } 
                                     else
                                     {
                                         @* if user not authun *@
@@ -194,7 +194,7 @@
                                         <li>
                                             <a asp-controller="Account" asp-action="Register">Register</a>
                                         </li>
-                                    }
+                                  }
 
 
                                 </ul>
