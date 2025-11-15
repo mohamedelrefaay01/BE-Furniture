@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -39,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\cart\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -63,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\category\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -81,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Migrations\\20251115181249_UpdateProductNullableFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251115181249_UpdateProductNullableFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -181,6 +177,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\migrations\\20251115113351_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:migrations\\20251115113351_last.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\drapo\\desktop\\web_mvc-home-furnishings\\migrations\\20251115181249_updateproductnullablefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:migrations\\20251115181249_updateproductnullablefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -190,7 +190,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,33 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:28:34.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAmwL8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:28:34.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Controllers\\CartController.cs",
@@ -236,12 +210,11 @@
               "RelativeToolTip": "Controllers\\CartController.cs",
               "ViewState": "AgIAAHcBAAAAAAAAAAAAwJMBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:45:37.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T11:45:37.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Orders\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
@@ -249,12 +222,11 @@
               "RelativeToolTip": "Views\\Orders\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T11:28:34.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T11:28:34.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
@@ -267,59 +239,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:28:34.548Z",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T12:25:16.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:28:34.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Cart.cs",
-              "RelativeToolTip": "Models\\Cart.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:43:56.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:10:42.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "OrderConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Cart\\OrderConfirmation.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\OrderConfirmation.cshtml",
@@ -332,7 +265,79 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAmwL8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:28:34.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:28:34.545Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:28:34.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:28:34.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:43:56.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T18:10:42.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
@@ -340,12 +345,11 @@
               "RelativeToolTip": "Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAAGwBAAAAAAAAAAAmwH0BAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T11:46:59.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T11:46:59.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Cart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
@@ -353,12 +357,11 @@
               "RelativeToolTip": "Views\\Cart\\Checkout.cshtml",
               "ViewState": "AgIAAJgBAAAAAAAAAAAmwKkBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T11:47:23.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T11:47:23.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_MyLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Shared\\_MyLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_MyLayout.cshtml",
@@ -366,12 +369,11 @@
               "RelativeToolTip": "Views\\Shared\\_MyLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T11:28:34.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T11:28:34.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -379,8 +381,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAIsAAAAAAAAAAAAAAJoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T11:28:34.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T11:28:34.539Z"
             },
             {
               "$type": "Document",
@@ -392,8 +393,7 @@
               "RelativeToolTip": "Repository\\ProductRepository.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAmwDwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:28:34.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T11:28:34.515Z"
             },
             {
               "$type": "Document",
@@ -405,12 +405,11 @@
               "RelativeToolTip": "Controllers\\RoleController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T11:28:34.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T11:28:34.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Products.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Category\\Products.cshtml",
               "RelativeDocumentMoniker": "Views\\Category\\Products.cshtml",
@@ -418,12 +417,11 @@
               "RelativeToolTip": "Views\\Category\\Products.cshtml",
               "ViewState": "AgIAACwBAAAAAAAAAAAAADsBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T12:04:13.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:04:13.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 44,
               "Title": "20251115181249_UpdateProductNullableFields.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Migrations\\20251115181249_UpdateProductNullableFields.cs",
               "RelativeDocumentMoniker": "Migrations\\20251115181249_UpdateProductNullableFields.cs",
@@ -431,8 +429,7 @@
               "RelativeToolTip": "Migrations\\20251115181249_UpdateProductNullableFields.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:12:49.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:12:49.454Z"
             },
             {
               "$type": "Document",
@@ -444,21 +441,7 @@
               "RelativeToolTip": "Views\\Product\\Edit.cshtml",
               "ViewState": "AgIAAMoAAAAAAAAAAAAAAOUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T12:25:47.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAJwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T12:25:16.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T12:25:47.099Z"
             },
             {
               "$type": "Document",
@@ -470,12 +453,11 @@
               "RelativeToolTip": "Views\\Product\\Details.cshtml",
               "ViewState": "AgIAAE0BAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T13:06:18.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:06:18.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -483,12 +465,11 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAowCAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:09:39.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:09:39.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "ProductDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\ViewModels\\ProductDetailsViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ProductDetailsViewModel.cs",
@@ -496,12 +477,11 @@
               "RelativeToolTip": "ViewModels\\ProductDetailsViewModel.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA7wA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:10:00.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:10:00.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\ProductViewModel.cs",
@@ -509,12 +489,11 @@
               "RelativeToolTip": "ViewModels\\ProductViewModel.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAqwCQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T13:04:18.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T13:04:18.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "CartRepository.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Repository\\CartRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CartRepository.cs",
@@ -526,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -538,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "CheckoutViewModel.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\ViewModels\\CheckoutViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\CheckoutViewModel.cs",
@@ -550,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "CategoryProductsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\ViewModels\\CategoryProductsViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\CategoryProductsViewModel.cs",
@@ -562,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -574,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "20251115113351_last.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Migrations\\20251115113351_last.cs",
               "RelativeDocumentMoniker": "Migrations\\20251115113351_last.cs",
@@ -586,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Repository\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ICategoryRepository.cs",
@@ -598,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "ICartRepository.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Repository\\ICartRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ICartRepository.cs",
@@ -610,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -622,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Repository\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CategoryRepository.cs",
@@ -634,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -646,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Repository\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IProductRepository.cs",
@@ -658,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Repository\\IRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IRepository.cs",
@@ -670,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "OrderViewModel.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\ViewModels\\OrderViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\OrderViewModel.cs",
@@ -682,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\style.css",
@@ -694,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "RoleSelectionViewModel.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\ViewModels\\RoleSelectionViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\RoleSelectionViewModel.cs",
@@ -706,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -718,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "Models\\OrderItem.cs",
@@ -730,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "20251114220247_hazem3.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Migrations\\20251114220247_hazem3.cs",
               "RelativeDocumentMoniker": "Migrations\\20251114220247_hazem3.cs",
@@ -742,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "20251114220153_hazem2.cs",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\Migrations\\20251114220153_hazem2.cs",
               "RelativeDocumentMoniker": "Migrations\\20251114220153_hazem2.cs",
@@ -754,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\drapo\\Desktop\\Web_MVC-Home-furnishings\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
