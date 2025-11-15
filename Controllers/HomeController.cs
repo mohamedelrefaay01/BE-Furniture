@@ -4,7 +4,6 @@ using Home_furnishings.Repository;
 using Home_furnishings.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-
 namespace Home_furnishings.Controllers
 {
     public class HomeController : Controller
@@ -13,7 +12,6 @@ namespace Home_furnishings.Controllers
         private readonly IProductRepository _productRepository;
         private readonly ICartRepository _cartRepository;
         private readonly UserManager<ApplicationUser> _userManager;
-
         public HomeController(
             ICategoryRepository categoryRepository,
             IProductRepository productRepository,
@@ -25,20 +23,16 @@ namespace Home_furnishings.Controllers
             _cartRepository = cartRepository;
             _userManager = userManager;
         }
-
         public async Task<IActionResult> Index()
         {
             var categories = _categoryRepository.GetActiveCategories();
             var featuredProducts = _productRepository.GetFeaturedProducts(6);
-
             var user = await _userManager.GetUserAsync(User);
             int cartCount = 0;
-
             if (user != null)
             {
                 cartCount = _cartRepository.GetCartItemCount(user.Id.ToString());
             }
-
             var viewModel = new HomeViewModel
             {
                 Categories = categories.Select(c => new CategoryViewModel
@@ -48,7 +42,6 @@ namespace Home_furnishings.Controllers
                     ProductCount = c.Products.Count(p => p.IsActive),
                     SampleImageUrl = c.Products.FirstOrDefault(p => p.IsActive)?.ImageUrl
                 }).ToList(),
-
                 FeaturedProducts = featuredProducts.Select(p => new ProductViewModel
                 {
                     ProductId = p.ProductId,
@@ -61,12 +54,10 @@ namespace Home_furnishings.Controllers
                     CategoryId = p.CategoryId,
                     CategoryName = p.Category?.Name
                 }).ToList(),
-
                 IsAuthenticated = User.Identity.IsAuthenticated,
                 UserName = user?.FullName ?? user?.UserName,
                 CartItemCount = cartCount
             };
-
             return View(viewModel);
         }
     }

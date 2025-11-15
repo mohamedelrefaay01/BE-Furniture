@@ -1,0 +1,426 @@
+﻿@model Home_furnishings.ViewModels.CheckoutViewModel
+
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .checkout-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .checkout-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+            .checkout-header h1 {
+                margin: 0;
+                font-size: 2.5rem;
+            }
+
+        .checkout-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 40px;
+        }
+
+        .form-section {
+            padding: 20px;
+        }
+
+            .form-section h2 {
+                color: #2c3e50;
+                margin-bottom: 25px;
+                font-size: 1.8rem;
+                border-bottom: 3px solid #667eea;
+                padding-bottom: 10px;
+            }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 8px;
+                color: #34495e;
+                font-weight: 600;
+                font-size: 1rem;
+            }
+
+            .form-group input,
+            .form-group select,
+            .form-group textarea {
+                width: 100%;
+                padding: 12px 15px;
+                border: 2px solid #e0e0e0;
+                border-radius: 10px;
+                font-size: 1rem;
+                transition: all 0.3s ease;
+                box-sizing: border-box;
+            }
+
+                .form-group input:focus,
+                .form-group select:focus,
+                .form-group textarea:focus {
+                    outline: none;
+                    border-color: #667eea;
+                    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+                }
+
+            .form-group textarea {
+                resize: vertical;
+                min-height: 80px;
+            }
+
+        .field-validation-error {
+            color: #e74c3c;
+            font-size: 0.875rem;
+            margin-top: 5px;
+            display: block;
+        }
+
+        .input-validation-error {
+            border-color: #e74c3c !important;
+        }
+
+        .order-summary {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+            .order-summary h2 {
+                color: #2c3e50;
+                margin-bottom: 20px;
+                font-size: 1.8rem;
+            }
+
+        .cart-items {
+            max-height: 300px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+
+        .cart-item {
+            display: flex;
+            gap: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+            .cart-item img {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+
+        .cart-item-details {
+            flex: 1;
+        }
+
+        .cart-item-name {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .cart-item-price {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        .cart-item-quantity {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .order-totals {
+            border-top: 2px solid #e0e0e0;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .total-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            font-size: 1rem;
+        }
+
+            .total-row.grand-total {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #667eea;
+                border-top: 3px solid #667eea;
+                margin-top: 15px;
+                padding-top: 15px;
+            }
+
+        .payment-methods {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .payment-option {
+            position: relative;
+        }
+
+            .payment-option input[type="radio"] {
+                position: absolute;
+                opacity: 0;
+            }
+
+            .payment-option label {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 15px;
+                border: 2px solid #e0e0e0;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                font-weight: 600;
+            }
+
+            .payment-option input[type="radio"]:checked + label {
+                border-color: #667eea;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+            }
+
+        .confirm-btn {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+            box-shadow: 0 5px 20px rgba(17, 153, 142, 0.4);
+        }
+
+            .confirm-btn:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 30px rgba(17, 153, 142, 0.6);
+            }
+
+            .confirm-btn:active {
+                transform: translateY(-1px);
+            }
+
+            .confirm-btn:disabled {
+                opacity: 0.6;
+                cursor: not-allowed;
+                transform: none;
+            }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .loading.active {
+                display: block;
+            }
+
+        @@media (max-width: 968px) {
+            .checkout-content {
+                grid-template-columns: 1fr;
+            }
+
+            .order-summary {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="checkout-container">
+        <div class="checkout-header">
+            <h1>🛒 Checkout</h1>
+            <p>Complete your order</p>
+        </div>
+
+        <form asp-action="ProcessCheckout" asp-controller="Cart" method="post" id="checkoutForm" class="checkout-content">
+            @Html.AntiForgeryToken()
+
+            <div class="form-section">
+                <h2>📋 Shipping Information</h2>
+
+                <div class="form-group">
+                    <label asp-for="FullName">Full Name *</label>
+                    <input asp-for="FullName" type="text" placeholder="Enter your full name" required />
+                    <span asp-validation-for="FullName" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="PhoneNumber">Phone Number *</label>
+                    <input asp-for="PhoneNumber" type="tel" placeholder="+1 234 567 8900" required />
+                    <span asp-validation-for="PhoneNumber" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ShippingAddress">Shipping Address *</label>
+                    <input asp-for="ShippingAddress" type="text" placeholder="Street address, P.O. box" required />
+                    <span asp-validation-for="ShippingAddress" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ShippingCity">City *</label>
+                    <input asp-for="ShippingCity" type="text" placeholder="City" required />
+                    <span asp-validation-for="ShippingCity" class="field-validation-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="PostalCode">Postal Code</label>
+                    <input asp-for="PostalCode" type="text" placeholder="12345" />
+                    <span asp-validation-for="PostalCode" class="field-validation-error"></span>
+                </div>
+
+                <h2 style="margin-top: 40px;">💳 Payment Method</h2>
+
+                <div class="payment-methods">
+                    <div class="payment-option">
+                        <input type="radio" id="cash" asp-for="PaymentMethod" value="Cash on Delivery" checked />
+                        <label for="cash">💵 Cash on Delivery</label>
+                    </div>
+                    <div class="payment-option">
+                        <input type="radio" id="card" asp-for="PaymentMethod" value="Credit Card" />
+                        <label for="card">💳 Credit Card</label>
+                    </div>
+                    <div class="payment-option">
+                        <input type="radio" id="paypal" asp-for="PaymentMethod" value="PayPal" />
+                        <label for="paypal">🅿️ PayPal</label>
+                    </div>
+                    <div class="payment-option">
+                        <input type="radio" id="bank" asp-for="PaymentMethod" value="Bank Transfer" />
+                        <label for="bank">🏦 Bank Transfer</label>
+                    </div>
+                </div>
+                <span asp-validation-for="PaymentMethod" class="field-validation-error"></span>
+
+                <div class="form-group" style="margin-top: 30px;">
+                    <label asp-for="Notes">Order Notes </label>
+                    <textarea asp-for="Notes" placeholder="Any special instructions for your order"></textarea>
+                </div>
+            </div>
+
+            <div>
+                <div class="order-summary">
+                    <h2>📦 Order Summary</h2>
+
+                    <div class="cart-items">
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <div class="cart-item">
+                                <img src="@item.ImageUrl" alt="@item.ProductName">
+                                <div class="cart-item-details">
+                                    <div class="cart-item-name">@item.ProductName</div>
+                                    <div class="cart-item-price">
+                                        $@item.Price × <span class="cart-item-quantity">@item.Quantity</span>
+                                    </div>
+                                </div>
+                                <div style="font-weight: 700; color: #667eea;">
+                                    $@item.SubTotal.ToString("F2")
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="order-totals">
+                        <div class="total-row">
+                            <span>Subtotal (@Model.TotalItems items)</span>
+                            <span>$@Model.TotalPrice.ToString("F2")</span>
+                        </div>
+                        <div class="total-row">
+                            <span>Shipping</span>
+                            <span>$@Model.ShippingCost.ToString("F2")</span>
+                        </div>
+                        <div class="total-row">
+                            <span>Tax (10%)</span>
+                            <span>$@Model.Tax.ToString("F2")</span>
+                        </div>
+                        <div class="total-row grand-total">
+                            <span>Grand Total</span>
+                            <span>$@Model.GrandTotal.ToString("F2")</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="confirm-btn" id="confirmBtn">
+                    ✓ Confirm Order
+                </button>
+
+                <div class="loading" id="loadingDiv">
+                    <p>Processing your order... Please wait.</p>
+                </div>
+            </div>
+
+            @* Hidden fields to maintain model state *@
+            <input type="hidden" asp-for="TotalPrice" />
+            <input type="hidden" asp-for="TotalItems" />
+            <input type="hidden" asp-for="ShippingCost" />
+            <input type="hidden" asp-for="Tax" />
+            <input type="hidden" asp-for="GrandTotal" />
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#checkoutForm').on('submit', function (e) {
+                if ($(this).valid()) {
+                    // Disable the button to prevent double submission
+                    $('#confirmBtn').prop('disabled', true).text('Processing...');
+                    $('#loadingDiv').addClass('active');
+
+                    // Form will submit normally
+                    return true;
+                }
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>

@@ -2,24 +2,19 @@
 using Home_furnishings.Repository;
 using Home_furnishings.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-
 namespace Home_furnishings.Controllers
 {
     public class ProductController : Controller
     {
         private readonly IProductRepository _productRepository;
-
         public ProductController(IProductRepository productRepository)
         {
             _productRepository = productRepository;
         }
-
-
         // GET: Product
         public IActionResult Index()
         {
             var products = _productRepository.GetActiveProducts();
-
             var viewModel = products.Select(p => new ProductViewModel
             {
                 ProductId = p.ProductId,
@@ -32,10 +27,8 @@ namespace Home_furnishings.Controllers
                 CategoryId = p.CategoryId,
                 CategoryName = p.Category?.Name
             }).ToList();
-
             return View(viewModel);
         }
-
         // GET: Product/Details/5
         public IActionResult Details(int id)
         {
@@ -44,12 +37,10 @@ namespace Home_furnishings.Controllers
             {
                 return NotFound();
             }
-
             var relatedProducts = _productRepository.GetActiveByCategoryId(product.CategoryId)
                 .Where(p => p.ProductId != id)
                 .Take(4)
                 .ToList();
-
             var viewModel = new ProductDetailsViewModel
             {
                 ProductId = product.ProductId,
@@ -70,7 +61,6 @@ namespace Home_furnishings.Controllers
                     CategoryName = p.Category?.Name
                 }).ToList()
             };
-
             return View(viewModel);
         }
     }

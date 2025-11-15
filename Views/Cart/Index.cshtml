@@ -39,29 +39,29 @@
             transition: background 0.2s;
         }
 
-        .cart-item:hover {
-            background: #f8f9fa;
-        }
+            .cart-item:hover {
+                background: #f8f9fa;
+            }
 
-        .cart-item img {
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            border-radius: 10px;
-            margin-right: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
+            .cart-item img {
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-right: 20px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
 
         .cart-details {
             flex-grow: 1;
             padding: 0 20px;
         }
 
-        .cart-details h3 {
-            margin: 0 0 10px 0;
-            font-size: 1.3rem;
-            color: #2c3e50;
-        }
+            .cart-details h3 {
+                margin: 0 0 10px 0;
+                font-size: 1.3rem;
+                color: #2c3e50;
+            }
 
         .price {
             color: #e74c3c;
@@ -95,17 +95,17 @@
             box-shadow: 0 3px 10px rgba(102, 126, 234, 0.4);
         }
 
-        .quantity-btn:hover {
-            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.6);
-        }
+            .quantity-btn:hover {
+                background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(102, 126, 234, 0.6);
+            }
 
-        .quantity-btn:disabled {
-            background: linear-gradient(135deg, #bdc3c7 0%, #95a5a6 100%);
-            cursor: not-allowed;
-            box-shadow: none;
-        }
+            .quantity-btn:disabled {
+                background: linear-gradient(135deg, #bdc3c7 0%, #95a5a6 100%);
+                cursor: not-allowed;
+                box-shadow: none;
+            }
 
         .quantity-display {
             font-size: 1.3rem;
@@ -134,11 +134,11 @@
             box-shadow: 0 3px 10px rgba(252, 74, 26, 0.4);
         }
 
-        .remove-btn:hover {
-            background: linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%);
-            transform: scale(1.05);
-            box-shadow: 0 5px 15px rgba(252, 74, 26, 0.6);
-        }
+            .remove-btn:hover {
+                background: linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%);
+                transform: scale(1.05);
+                box-shadow: 0 5px 15px rgba(252, 74, 26, 0.6);
+            }
 
         .total-box {
             margin-top: 30px;
@@ -183,11 +183,11 @@
             box-shadow: 0 4px 15px rgba(17, 153, 142, 0.4);
         }
 
-        .btn-primary:hover {
-            background: linear-gradient(135deg, #38ef7d 0%, #11998e 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(17, 153, 142, 0.6);
-        }
+            .btn-primary:hover {
+                background: linear-gradient(135deg, #38ef7d 0%, #11998e 100%);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 20px rgba(17, 153, 142, 0.6);
+            }
 
         .btn-danger {
             background: linear-gradient(135deg, #fc4a1a 0%, #f7b733 100%);
@@ -195,11 +195,11 @@
             box-shadow: 0 4px 15px rgba(252, 74, 26, 0.4);
         }
 
-        .btn-danger:hover {
-            background: linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(252, 74, 26, 0.6);
-        }
+            .btn-danger:hover {
+                background: linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 20px rgba(252, 74, 26, 0.6);
+            }
     </style>
 </head>
 <body>
@@ -372,11 +372,10 @@
             });
 
             // Checkout
-            $('#checkout').click(function() {
-                // Redirect to checkout page or show alert
-                window.location.href = '@Url.Action("Index", "Orders")';
-                // Or: alert('✓ Checkout functionality coming soon!');
-            });
+                  // Replace the checkout button click handler with:
+        $('#checkout').click(function() {
+            window.location.href = '@Url.Action("Checkout", "Cart")';
+        });
         });
     </script>
 </body>

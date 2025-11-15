@@ -2,19 +2,16 @@
 using Home_furnishings.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 namespace Home_furnishings.Controllers
 {
     public class OrdersController : Controller
     {
         private readonly Context _context;
-
         public OrdersController(Context context)
         {
             _context = context;
         }
 
-       
         public async Task<IActionResult> Index()
         {
             var orders = await _context.Orders
@@ -32,21 +29,17 @@ namespace Home_furnishings.Controllers
                     PhoneNumber = o.PhoneNumber
                 })
                 .ToListAsync();
-
             return View(orders);
         }
 
-      
         public async Task<IActionResult> Details(int id)
         {
             var order = await _context.Orders
                 .Include(o => o.OrderItems)
                 .ThenInclude(oi => oi.Product)
                 .FirstOrDefaultAsync(o => o.OrderId == id);
-
             if (order == null)
                 return NotFound();
-
             var viewModel = new OrderViewModel
             {
                 OrderId = order.OrderId,
@@ -65,10 +58,7 @@ namespace Home_furnishings.Controllers
                     Discount = oi.Discount
                 }).ToList()
             };
-
             return View(viewModel);
         }
     }
 }
-
-

@@ -110,13 +110,10 @@
 
         /* ===== Animation ===== */
         @@keyframes fadeUp {
-            to
-
-        {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         /* ===== Button Styling (optional) ===== */
@@ -138,6 +135,155 @@
 </head>
 <body>
 
+
+
+
+
+
+
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="success-notification" id="successNotification">
+            <div class="success-content">
+                <span class="success-icon">✓</span>
+                <span class="success-text">@TempData["SuccessMessage"]</span>
+                <button class="close-btn" onclick="closeNotification()">×</button>
+            </div>
+        </div>
+    }
+
+    <style>
+        .success-notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+            animation: slideInRight 0.5s ease;
+        }
+
+        @@keyframes slideInRight {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @@keyframes slideOutRight {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+
+            to {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+        }
+
+        .success-content {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 20px 25px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(17, 153, 142, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            min-width: 350px;
+            max-width: 500px;
+        }
+
+        .success-icon {
+            background: white;
+            color: #11998e;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .success-text {
+            flex: 1;
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .close-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5rem;
+            line-height: 1;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+            .close-btn:hover {
+                background: rgba(255, 255, 255, 0.3);
+                transform: rotate(90deg);
+            }
+
+        .slide-out {
+            animation: slideOutRight 0.5s ease forwards;
+        }
+
+        @@media (max-width: 576px) {
+            .success-notification {
+                right: 10px;
+                left: 10px;
+            }
+
+            .success-content {
+                min-width: auto;
+                padding: 15px 20px;
+            }
+
+            .success-text {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+
+    <script>
+        // Auto close notification after 5 seconds
+        setTimeout(function() {
+            closeNotification();
+        }, 5000);
+
+        function closeNotification() {
+            const notification = document.getElementById('successNotification');
+            if (notification) {
+                notification.classList.add('slide-out');
+                setTimeout(function() {
+                    notification.style.display = 'none';
+                }, 500);
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
     <!-- Products Section -->
     <div class="products-section" style="align-content:center;text-align:center">
         <h2>Our Categories</h2>
@@ -149,7 +295,7 @@
                     <div class="box-image">
                         <a asp-controller="Category" asp-action="@category.Name">
                             <img src="@category.SampleImageUrl" alt="@category.Name">
-                       
+
                         </a>
                     </div>
                     <p>@category.ProductCount Products Available</p>
