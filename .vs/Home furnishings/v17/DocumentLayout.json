@@ -1,110 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\",
+  "WorkspaceRootPath": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\repository\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:repository\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\a.s\\desktop\\task5\\web_mvc-home-furnishings\\web_mvc-home-furnishings\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\a.s\\desktop\\task5\\web_mvc-home-furnishings\\web_mvc-home-furnishings\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\viewmodels\\roleselectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:viewmodels\\roleselectionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\a.s\\desktop\\task5\\web_mvc-home-furnishings\\web_mvc-home-furnishings\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\a.s\\desktop\\task5\\web_mvc-home-furnishings\\web_mvc-home-furnishings\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\a.s\\desktop\\task5\\web_mvc-home-furnishings\\web_mvc-home-furnishings\\viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\a.s\\desktop\\task5\\web_mvc-home-furnishings\\web_mvc-home-furnishings\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\migrations\\20251114220247_hazem3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:migrations\\20251114220247_hazem3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\hazem\\source\\web_mvc home furnishings\\web_mvc-home-furnishings\\migrations\\20251114220153_hazem2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:migrations\\20251114220153_hazem2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|c:\\users\\a.s\\desktop\\task5\\web_mvc-home-furnishings\\web_mvc-home-furnishings\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD2376F-8198-4D9E-0BF6-392636D1045B}|Home furnishings.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,8 +38,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -125,329 +53,103 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\CartRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CartRepository.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\CartRepository.cs",
-              "RelativeToolTip": "Repository\\CartRepository.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:48:35.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\CategoryRepository.cs",
-              "RelativeToolTip": "Repository\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:48:34.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ICartRepository.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\ICartRepository.cs",
-              "RelativeToolTip": "Repository\\ICartRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:48:34.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\ICategoryRepository.cs",
-              "RelativeToolTip": "Repository\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:48:33.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:44:12.761Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:18:35.566Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAswDIBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T21:34:24.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "Repository\\ProductRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:48:24.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\IProductRepository.cs",
-              "RelativeToolTip": "Repository\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:48:31.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:48:22.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "OrderViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\ViewModels\\OrderViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\OrderViewModel.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\ViewModels\\OrderViewModel.cs",
-              "RelativeToolTip": "ViewModels\\OrderViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T00:34:15.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\style.css",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\style.css",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\style.css",
-              "RelativeToolTip": "wwwroot\\assets\\css\\style.css",
-              "ViewState": "AgIAACcDAAAAAAAAAAD4vzkDAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-14T23:02:41.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:20:02.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "_MyLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Views\\Shared\\_MyLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Views\\Shared\\_MyLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_MyLayout.cshtml",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Views\\Shared\\_MyLayout.cshtml",
+              "ToolTip": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Views\\Shared\\_MyLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_MyLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAADIBAAAAAAAAAAAAADoBAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-14T22:37:25.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T20:40:24.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAnwKMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-14T22:38:22.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RoleSelectionViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\ViewModels\\RoleSelectionViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\RoleSelectionViewModel.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\ViewModels\\RoleSelectionViewModel.cs",
-              "RelativeToolTip": "ViewModels\\RoleSelectionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:44:40.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "Controllers\\OrdersController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T00:36:23.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:18:44.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T01:19:50.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Views\\Orders\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Orders\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Views\\Orders\\Index.cshtml",
-              "RelativeToolTip": "Views\\Orders\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-14T22:28:17.194Z"
+              "WhenOpened": "2025-11-22T21:31:24.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Views\\Orders\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Orders\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Views\\Orders\\Details.cshtml",
-              "RelativeToolTip": "Views\\Orders\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Views\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Search\\Index.cshtml",
+              "ToolTip": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Views\\Search\\Index.cshtml",
+              "RelativeToolTip": "Views\\Search\\Index.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAcwJ0AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-14T22:26:52.239Z"
+              "WhenOpened": "2025-11-22T20:39:20.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SearchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\ViewModels\\SearchViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SearchViewModel.cs",
+              "ToolTip": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\ViewModels\\SearchViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SearchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T22:24:12.799Z"
+              "WhenOpened": "2025-11-22T20:34:49.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Models\\OrderItem.cs",
-              "RelativeToolTip": "Models\\OrderItem.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA7wBgAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T22:23:59.377Z"
+              "WhenOpened": "2025-11-22T20:33:23.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20251114220247_hazem3.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Migrations\\20251114220247_hazem3.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251114220247_hazem3.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Migrations\\20251114220247_hazem3.cs",
-              "RelativeToolTip": "Migrations\\20251114220247_hazem3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T22:02:47.778Z"
-            },
+              "WhenOpened": "2025-11-22T20:07:34.574Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 105,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20251114220153_hazem2.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Migrations\\20251114220153_hazem2.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251114220153_hazem2.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Migrations\\20251114220153_hazem2.cs",
-              "RelativeToolTip": "Migrations\\20251114220153_hazem2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T22:01:53.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-14T22:01:22.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Hazem\\source\\Web_MVC Home furnishings\\Web_MVC-Home-furnishings\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T21:58:06.074Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

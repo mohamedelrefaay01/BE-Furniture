@@ -1,0 +1,1297 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Home furnishings.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Home furnishings.09jw4m2481.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\22.jpeg",
+      "PackagePath": "staticwebassets\\Images\\22.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\23.jpeg",
+      "PackagePath": "staticwebassets\\Images\\23.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\24.jpg",
+      "PackagePath": "staticwebassets\\Images\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\11.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\111.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\12.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\13.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\14.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\15.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\16.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\17.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\18.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\19.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\20.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\21.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\22.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\23.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\24.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\4.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\Carpets\\9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Carpets\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\11.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\111.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\1111.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\1111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\12.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\13.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\14.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\15.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\16.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\17.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\18.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\19.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\20.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\21.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\22.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\23.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\24.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\4.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\curtains\\9.jpg",
+      "PackagePath": "staticwebassets\\Images\\curtains\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\Images\\profile.jpg.jpg",
+      "PackagePath": "staticwebassets\\Images\\profile.jpg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\elegant-icons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\elegant-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\font.awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font.awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\icofont.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icofont.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\vendor\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\css\\vendor\\vendor.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor\\vendor.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ElegantIcons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ElegantIcons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\about-hero.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\about-hero.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\about1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\about1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\about2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\about2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\bg1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\bg2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\bg3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\bg3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\shop-collection1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\shop-collection1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\shop-collection2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\shop-collection2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\shop-collection3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\shop-collection3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\bg\\shop-collection4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\shop-collection4.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog-author.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-author.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog-page1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-page1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog-page2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-page2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog-page3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-page3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog-page4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-page4.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog-sticky.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-sticky.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\blog3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\comment2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\comment2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\post-comment1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\post-comment1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\post-comment2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\post-comment2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\related1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\related1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\related1.jpg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\related1.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\related2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\related2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\blog\\related3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\related3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\Search1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\Search1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\SearchIcon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\SearchIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\blockcode.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\blockcode.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\blockcode2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\blockcode2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\button-play.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\button-play.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\cart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\chart-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\chart-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\check.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\check.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\heart-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\heart-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\heart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\heart.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\mark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\mark.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\person.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\person.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\search.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\shopping-cart.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\icon\\youtv.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\youtv.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\armchair.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\armchair.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\armchair2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\armchair2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\befurniture.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\befurniture.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\choice1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\choice1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\choice2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\choice2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\choice3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\choice3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram10.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram4.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram5.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram6.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram7.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram8.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\instagram9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\instagram9.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\post-nav1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\post-nav1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\post-nav2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\post-nav2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\product-info-thumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\product-info-thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\shipping1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\shipping1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\shipping2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\shipping2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\shipping3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\shipping3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\shipping4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\shipping4.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\shipping5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\shipping5.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\shipping6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\shipping6.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\shop-layer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\shop-layer.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\shop-sidebar.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\shop-sidebar.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\team1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\team1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\team2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\team2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\team3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\team3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\team4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\team4.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\testi-author1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\testi-author1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\testi-author2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\testi-author2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\others\\testimonial-position.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\testimonial-position.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\paypal.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\paypal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\22222.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\22222.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\3333.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\3333.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\pp\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\pp\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product-gallery1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product-gallery1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product-gallery2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product-gallery2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product-gallery3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product-gallery3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product-gallery4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product-gallery4.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product-gallery5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product-gallery5.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product10.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product11.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product12.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product3.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product4.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product5.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product6.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product7.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product8.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\product9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\product9.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\small-product1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\small-product1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\product\\small-product2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\small-product2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\111.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\111.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\slider-shape1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-shape1.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\slider-text-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-text-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\slider1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\img\\slider\\slider2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider2.png"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\images-loaded.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\images-loaded.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\jquery-waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-waypoints.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\jquery.nice-select.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nice-select.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\jquery.scrollup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.scrollup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\mailchimp-ajax.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mailchimp-ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\vendor\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\vendor\\modernizr-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\vendor\\popper.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\vendor\\vendor.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\vendor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\mail.php",
+      "PackagePath": "staticwebassets\\assets\\mail.php"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\_common.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\_variabls.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_variabls.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_blog-details.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_blog.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_other.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_other.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_product.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_product.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_shop.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_shop.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\section\\_slider.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\section\\_slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\css\\style1.css",
+      "PackagePath": "staticwebassets\\css\\style1.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\A.S\\Desktop\\Task5\\Web_MVC-Home-furnishings\\Web_MVC-Home-furnishings\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Home furnishings.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Home furnishings.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Home furnishings.props",
+      "PackagePath": "build\\Home furnishings.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Home furnishings.props",
+      "PackagePath": "buildMultiTargeting\\Home furnishings.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Home furnishings.props",
+      "PackagePath": "buildTransitive\\Home furnishings.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

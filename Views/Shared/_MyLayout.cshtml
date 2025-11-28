@@ -309,15 +309,16 @@
     </div>
     <!--mini cart end--> *@
     <!-- page search box -->
-    <div class="page_search_box">
-        <div class="search_close">
-            <i class="ion-close-round"></i>
-        </div>
-        <form class="border-bottom" action="#">
-            <input class="border-0" placeholder="Search products..." type="text">
-            <button type="submit"><i class="icofont-search"></i></button>
-        </form>
+<div class="page_search_box">
+    <div class="search_close">
+        <i class="ion-close-round"></i>
     </div>
+    <form class="border-bottom" asp-controller="Search" asp-action="Index" method="get">
+        <input class="border-0" placeholder="Search products..." type="text" name="query" autocomplete="off">
+        <button type="submit"><i class="icofont-search"></i></button>
+    </form>
+</div>
+
     <!--header area end-->
 
 
